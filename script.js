@@ -2,7 +2,7 @@ let videoElement;
 let vidSource;
 let lastLogo;
 
-let srcs = ["tzriffin-pin", "bahalag-pin", "277-pin", "727-pin", "47-pin", "33-pin", "414-pin", "363-pin", "41-pin", "869-pin", "595-pin"];
+let srcs = ["tzriffin-pin", "bahalag-pin", "277-pin", "727-pin", "47-pin", "33-pin", "414-pin", "636-pin", "41-pin", "869-pin", "595-pin"];
 
 window.addEventListener("load", () => {
     videoElement = document.getElementById("vid");
