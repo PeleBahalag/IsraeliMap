@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Heebo;
+    src: url('./assets/fonts/Heebo-VariableFont_wght.ttf');
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    font-family: Heebo;
+}
+
+#select {
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#preview {
+    width: 532px;
+    height: 70vh;
+    position: absolute;
+    left: 12.5vw;
+    bottom: 7.5vw;
+}
+
+#vid {
+    width: 75vw;
+    height: 42.2vw;
+    /* border: 2px solid black; */
+}
+
+.logos {
+    width: 2.7vw;
+    height: 3.6vw;
+    margin: 1vw .8vw -1.3vw .8vw;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.selected-logo {
+    width: 3.1vw;
+    height: 4.3vw;
+    filter: drop-shadow(5px 5px 20px);
+}
+
+p {
+    font-size: .7vw;
+    text-align: center;
+    width: 4.5vw;
+    line-height: .8vw;
+}
