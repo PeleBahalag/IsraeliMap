@@ -5,6 +5,7 @@
 
 body,
 html {
+    margin: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -13,6 +14,7 @@ html {
 }
 
 #select {
+    margin: 0;
     width: 100vw;
     height: 20vh;
     position: absolute;
@@ -28,13 +30,13 @@ html {
     height: 70vh;
     position: absolute;
     left: 12.5vw;
-    bottom: 8.4vw;
+    bottom: 7.9vw;
 }
 
 #vid {
     width: 75vw;
     height: 42.2vw;
-    /* border: 2px solid black; */
+    border: 2px groove gray;
 }
 
 .logos {
@@ -55,5 +57,5 @@ p {
     font-size: .7vw;
     text-align: center;
     width: 4.5vw;
-    line-height: .8vw;
+    line-height: .9vw;
 }
