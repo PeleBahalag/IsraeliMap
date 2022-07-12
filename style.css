@@ -33,7 +33,7 @@ html {
     bottom: 7.9vw;
 }
 
-#vid {
+.vid {
     width: 75vw;
     height: 42.2vw;
     border: 2px groove gray;
@@ -58,4 +58,43 @@ p {
     text-align: center;
     width: 4.5vw;
     line-height: .9vw;
+}
+
+#globe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1.2vw 1.5vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    cursor: pointer;
+    z-index: 10;
+    transition: all .3s ease;
+}
+
+#globettl {
+    position: absolute;
+    text-align: center;
+    width: 3.5vw;
+    top: 4.5vw;
+    margin: .8vw 1.5vw;
+    transition: all .3s ease;
+}
+
+#globe:hover {
+    width: 4vw;
+    height: 4vw;
+}
+
+#globe:hover+#globettl {
+    width: 4vw;
+    top: 5vw;
+}
+
+#imageisrael {
+    display: none;
+}
+
+#vid {
+    display: block;
 }
