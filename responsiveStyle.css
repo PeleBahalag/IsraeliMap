@@ -1,0 +1,109 @@
+@media only screen and (max-width: 740px) {
+    #select {
+        margin: 0;
+        height: 30vh;
+    }
+    .logos {
+        width: 3.5vw;
+        height: 4.5vw;
+        margin: 4vw .8vw -1.3vw .8vw;
+    }
+    .selected-logo {
+        width: 4vw;
+        height: 5.3vw;
+    }
+    #preview {
+        left: 5vw;
+        bottom: 6vw;
+    }
+    .vid {
+        width: 90vw;
+        height: 50.5vw;
+        border: 2px groove gray;
+    }
+    #globe {
+        margin: 5vw 5vw;
+    }
+    #globettl {
+        margin: 5vw 5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #select {
+        margin: 0;
+        height: 40vh;
+    }
+    .logos {
+        width: 4.5vw;
+        height: 5.7vw;
+        margin: 5vw .8vw -1.3vw .8vw;
+    }
+    .selected-logo {
+        width: 5.2vw;
+        height: 7vw;
+    }
+    #preview {
+        left: 5vw;
+        bottom: 4vw;
+    }
+    .vid {
+        width: 90vw;
+        height: 50.5vw;
+        border: 2px groove gray;
+    }
+    #globe {
+        margin: 6vw 5vw;
+    }
+    #globettl {
+        margin: 6vw 5vw;
+    }
+    p {
+        margin: 1vw .2vw 0 1vw;
+        font-size: .9vw;
+        text-align: center;
+        width: 5vw;
+        line-height: .9vw;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    body {
+        background-color: gray;
+    }
+    #select {
+        margin: 0;
+        height: 40vh;
+    }
+    .logos {
+        width: 4.5vw;
+        height: 5.7vw;
+        margin: 5vw .8vw -1.3vw .8vw;
+    }
+    .selected-logo {
+        width: 5.2vw;
+        height: 7vw;
+    }
+    #preview {
+        left: 5vw;
+        bottom: 4vw;
+    }
+    .vid {
+        width: 90vw;
+        height: 50.5vw;
+        border: 2px groove gray;
+    }
+    #globe {
+        margin: 6vw 5vw;
+    }
+    #globettl {
+        margin: 6vw 5vw;
+    }
+    p {
+        margin: 1vw .2vw 0 1vw;
+        font-size: .9vw;
+        text-align: center;
+        width: 5vw;
+        line-height: .9vw;
+    }
+}
