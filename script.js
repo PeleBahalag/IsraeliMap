@@ -50,6 +50,5 @@ const changeGdood = (i) => {
 
     // Change src for video
     vidSource.setAttribute("src", `./assets/animations/${srcs[i]}.mp4`);
-    console.log(vidSource.getAttribute("src"));
     videoElement.load();
 }
