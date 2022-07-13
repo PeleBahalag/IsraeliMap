@@ -19,7 +19,6 @@
     .vid {
         width: 90vw;
         height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 5vw 5vw;
@@ -50,7 +49,6 @@
     .vid {
         width: 90vw;
         height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 6vw 5vw;
@@ -89,7 +87,6 @@
     .vid {
         width: 90vw;
         height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 0;
@@ -141,7 +138,6 @@
     .vid {
         width: 90vw;
         height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 0;
@@ -195,7 +191,6 @@
     .vid {
         width: 90vw;
         height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 0;
@@ -243,15 +238,6 @@
         width: 8.6vw;
         height: 11vw;
     }
-    #preview {
-        left: 5vw;
-        bottom: 30vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
-        border: 2px groove gray;
-    }
     #globe {
         margin: 0;
         top: 119vw;
@@ -280,6 +266,9 @@
 }
 
 @media only screen and (max-width: 320px) {
+    body {
+        background-color: brown;
+    }
     #select {
         top: 85vw;
         left: 0;
@@ -296,15 +285,6 @@
     .selected-logo {
         width: 8.6vw;
         height: 11vw;
-    }
-    #preview {
-        left: 5vw;
-        bottom: 30vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 0;
@@ -350,15 +330,6 @@
     .selected-logo {
         width: 8.6vw;
         height: 11vw;
-    }
-    #preview {
-        left: 5vw;
-        bottom: 30vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
-        border: 2px groove gray;
     }
     #globe {
         margin: 0;
