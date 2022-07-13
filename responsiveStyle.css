@@ -273,15 +273,15 @@
         top: 0;
     }
     #preview {
-        width: 75vw;
-        height: 80vw;
+        width: 65vw;
+        height: 35vw;
         position: absolute;
-        left: 12.5vw;
-        top: 16vh;
+        left: 17.5vw;
+        top: 18vh;
     }
     .vid {
         width: 65vw;
-        height: 36.5vw;
+        height: 35vw;
         border: 4px groove gray;
     }
     .logos {
