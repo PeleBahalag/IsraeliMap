@@ -277,11 +277,19 @@
         height: 80vw;
         position: absolute;
         left: 12.5vw;
-        top: 15vh;
+        top: 16vh;
     }
     .vid {
-        width: 70vw;
-        height: 37vw;
+        width: 65vw;
+        height: 36.5vw;
         border: 4px groove gray;
+    }
+    .logos {
+        width: 3vw;
+        height: 3.6vw;
+    }
+    .selected-logo {
+        width: 3.5vw;
+        height: 4.2vw;
     }
 }
