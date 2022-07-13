@@ -264,3 +264,24 @@
         width: 7.5vw;
     }
 }
+
+
+/* Take care of all landscape style changes */
+
+@media only screen and (orientation: landscape) {
+    #select {
+        top: 0;
+    }
+    #preview {
+        width: 75vw;
+        height: 80vw;
+        position: absolute;
+        left: 12.5vw;
+        top: 15vh;
+    }
+    .vid {
+        width: 70vw;
+        height: 37vw;
+        border: 4px groove gray;
+    }
+}
