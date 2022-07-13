@@ -54,6 +54,7 @@ html {
 }
 
 p {
+    direction: rtl;
     margin: .8vw 0 0 0;
     font-size: .7vw;
     text-align: center;
