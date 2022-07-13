@@ -53,10 +53,10 @@ html {
     filter: drop-shadow(5px 5px 20px);
 }
 
-p {
+.sub>p {
     direction: rtl;
     margin: 1vw 0 0 0;
-    font-size: .9vw;
+    font-size: .8vw;
     text-align: center;
     width: 4.5vw;
     line-height: .8vw;
