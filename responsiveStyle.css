@@ -30,7 +30,6 @@
 
 @media only screen and (max-width: 600px) {
     #select {
-        margin: 0;
         height: 40vh;
     }
     .logos {
@@ -41,14 +40,6 @@
     .selected-logo {
         width: 5.2vw;
         height: 7vw;
-    }
-    #preview {
-        left: 5vw;
-        bottom: 4vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
     }
     #globe {
         margin: 6vw 5vw;
@@ -68,7 +59,6 @@
 @media only screen and (max-width: 590px) {
     #select {
         top: 57vw;
-        margin: 0;
         height: 40vh;
     }
     .logos {
@@ -81,12 +71,7 @@
         height: 7vw;
     }
     #preview {
-        left: 5vw;
         bottom: 20vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
     }
     #globe {
         margin: 0;
@@ -98,13 +83,6 @@
     #globettl {
         top: 72vw;
         left: 43.2vw;
-    }
-    p {
-        margin: 1vw .2vw 0 1vw;
-        font-size: .9vw;
-        text-align: center;
-        width: 5vw;
-        line-height: .9vw;
     }
     #globe:hover {
         width: 6vw;
@@ -119,7 +97,6 @@
 @media only screen and (max-width: 510px) {
     #select {
         top: 65vw;
-        margin: 0;
         height: 40vh;
     }
     .logos {
@@ -130,14 +107,6 @@
     .selected-logo {
         width: 5.2vw;
         height: 7vw;
-    }
-    #preview {
-        left: 5vw;
-        bottom: 20vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
     }
     #globe {
         margin: 0;
@@ -150,11 +119,7 @@
         top: 82vw;
     }
     p {
-        margin: 1vw .2vw 0 1vw;
         font-size: 1.2vw;
-        text-align: center;
-        width: 5vw;
-        line-height: .9vw;
     }
     #globe:hover {
         width: 6vw;
@@ -168,7 +133,6 @@
 
 @media only screen and (max-width: 420px) {
     #select {
-        top: 65vw;
         left: 0;
         margin: 0 10vw 0 10vw;
         height: 30vh;
@@ -185,12 +149,7 @@
         height: 7vw;
     }
     #preview {
-        left: 5vw;
         bottom: 30vw;
-    }
-    .vid {
-        width: 90vw;
-        height: 50.5vw;
     }
     #globe {
         margin: 0;
@@ -206,7 +165,6 @@
     p {
         margin: 1vw 0 0 3vw;
         font-size: 2vw;
-        text-align: center;
         width: 7vw;
         line-height: 2vw;
     }
@@ -223,11 +181,6 @@
 @media only screen and (max-width: 360px) {
     #select {
         top: 75vw;
-        left: 0;
-        margin: 0 10vw 0 10vw;
-        height: 30vh;
-        width: 80vw;
-        flex-wrap: wrap;
     }
     .logos {
         width: 7vw;
@@ -249,12 +202,6 @@
         top: 121vw;
         left: 43.8vw;
     }
-    p {
-        font-size: 2vw;
-        text-align: center;
-        width: 7vw;
-        line-height: 2vw;
-    }
     #globe:hover {
         width: 8vw;
         height: 8vw;
@@ -266,16 +213,8 @@
 }
 
 @media only screen and (max-width: 320px) {
-    body {
-        background-color: brown;
-    }
     #select {
         top: 85vw;
-        left: 0;
-        margin: 0 10vw 0 10vw;
-        height: 30vh;
-        width: 80vw;
-        flex-wrap: wrap;
     }
     .logos {
         width: 7vw;
@@ -297,12 +236,6 @@
         top: 138vw;
         left: 43.8vw;
     }
-    p {
-        font-size: 2vw;
-        text-align: center;
-        width: 7vw;
-        line-height: 2vw;
-    }
     #globe:hover {
         width: 8vw;
         height: 8vw;
@@ -316,11 +249,6 @@
 @media only screen and (max-width: 270px) {
     #select {
         top: 95vw;
-        left: 0;
-        margin: 0 10vw 0 10vw;
-        height: 30vh;
-        width: 80vw;
-        flex-wrap: wrap;
     }
     .logos {
         width: 7vw;
@@ -344,9 +272,7 @@
     }
     p {
         font-size: 2.5vw;
-        text-align: center;
         width: 7.5vw;
-        line-height: 2vw;
     }
     #globe:hover {
         width: 8vw;
