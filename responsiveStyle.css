@@ -334,11 +334,8 @@
 }
 
 @media only screen and (max-width: 270px) {
-    body {
-        background-color: blue;
-    }
     #select {
-        top: 85vw;
+        top: 95vw;
         left: 0;
         margin: 0 10vw 0 10vw;
         height: 30vh;
@@ -347,7 +344,7 @@
     }
     .logos {
         width: 7vw;
-        height: 8.3vw;
+        height: 8.8vw;
         margin: 1vw 3vw -1.3vw 3vw;
     }
     .selected-logo {
@@ -365,19 +362,19 @@
     }
     #globe {
         margin: 0;
-        top: 135vw;
+        top: 155vw;
         left: 46.5vw;
         width: 7vw;
         height: 7vw;
     }
     #globettl {
-        top: 138vw;
-        left: 43.8vw;
+        top: 157vw;
+        left: 44.5vw;
     }
     p {
-        font-size: 2vw;
+        font-size: 2.5vw;
         text-align: center;
-        width: 7vw;
+        width: 7.5vw;
         line-height: 2vw;
     }
     #globe:hover {
@@ -386,6 +383,6 @@
     }
     #globe:hover+#globettl {
         width: 4vw;
-        top: 140vw;
+        top: 158vw;
     }
 }
