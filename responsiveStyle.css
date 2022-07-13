@@ -268,20 +268,20 @@
 
 /* Take care of all landscape style changes */
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 510px) {
     #select {
         top: 0;
     }
     #preview {
         width: 65vw;
-        height: 35vw;
+        height: 36.5vw;
         position: absolute;
         left: 17.5vw;
         top: 18vh;
     }
     .vid {
         width: 65vw;
-        height: 35vw;
+        height: 36.5vw;
         border: 4px groove gray;
     }
     .logos {
