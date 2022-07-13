@@ -26,11 +26,11 @@ html {
 }
 
 #preview {
-    width: 532px;
-    height: 70vh;
+    width: 80vw;
+    height: 70vw;
     position: absolute;
     left: 12.5vw;
-    bottom: 7.9vw;
+    top: 15vh;
 }
 
 .vid {
@@ -55,42 +55,45 @@ html {
 
 p {
     direction: rtl;
-    margin: .8vw 0 0 0;
-    font-size: .7vw;
+    margin: 1vw 0 0 0;
+    font-size: .9vw;
     text-align: center;
     width: 4.5vw;
-    line-height: .9vw;
+    line-height: .8vw;
+}
+
+#globe-btn {
+    position: absolute;
+    left: 2vw;
+    top: 1.5vw;
+    width: 3.5vw;
+    height: 5vw;
+    z-index: 10;
+    cursor: pointer;
 }
 
 #globe {
     position: absolute;
     left: 0;
     top: 0;
-    margin: 1.2vw 1.5vw;
+    margin: 0;
     width: 3.5vw;
     height: 3.5vw;
-    cursor: pointer;
-    z-index: 10;
     transition: all .3s ease;
 }
 
 #globettl {
+    width: fit-content;
     position: absolute;
     text-align: center;
-    width: 3.5vw;
-    top: 4.5vw;
-    margin: .8vw 1.5vw;
+    width: 100%;
+    top: 3vw;
+    direction: rtl;
     transition: all .3s ease;
 }
 
-#globe:hover {
-    width: 4vw;
-    height: 4vw;
-}
-
-#globe:hover+#globettl {
-    width: 4vw;
-    top: 5vw;
+#globe-btn:hover>#globe {
+    filter: invert(75%);
 }
 
 #imageisrael {

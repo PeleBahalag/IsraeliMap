@@ -6,7 +6,7 @@
     .logos {
         width: 3.5vw;
         height: 4.5vw;
-        margin: 4vw .8vw -1.3vw .8vw;
+        margin: 4vw 1.3vw -1.3vw 1.3vw;
     }
     .selected-logo {
         width: 4vw;
@@ -14,17 +14,26 @@
     }
     #preview {
         left: 5vw;
-        bottom: 6vw;
+        top: 20vh;
     }
     .vid {
         width: 90vw;
         height: 50.5vw;
     }
-    #globe {
-        margin: 5vw 5vw;
-    }
     #globettl {
-        margin: 5vw 5vw;
+        top: 4vw;
+        font-size: 1.5vw;
+    }
+    #globe-btn {
+        left: 5vw;
+        top: 5vw;
+    }
+    .sub>p {
+        margin: 1vw .2vw 0 1vw;
+        font-size: 1.3vw;
+        text-align: center;
+        width: 5vw;
+        line-height: 1.4vw;
     }
 }
 
@@ -41,62 +50,51 @@
         width: 5.2vw;
         height: 7vw;
     }
-    #globe {
-        margin: 6vw 5vw;
-    }
-    #globettl {
-        margin: 6vw 5vw;
-    }
-    p {
+    .sub>p {
         margin: 1vw .2vw 0 1vw;
-        font-size: .9vw;
+        font-size: 1.5vw;
         text-align: center;
         width: 5vw;
-        line-height: .9vw;
+        line-height: 1.5vw;
     }
 }
 
 @media only screen and (max-width: 590px) {
     #select {
-        top: 57vw;
+        top: 60vh;
         height: 40vh;
     }
     .logos {
         width: 4.5vw;
         height: 5.7vw;
-        margin: 5vw .8vw -1.3vw .8vw;
+        margin: 5vw 1.2vw -1.3vw 1.2vw;
     }
     .selected-logo {
         width: 5.2vw;
         height: 7vw;
     }
     #preview {
-        bottom: 20vw;
+        top: 10vh;
     }
     #globe {
-        margin: 0;
-        top: 72vw;
-        left: 47.5vw;
         width: 5vw;
         height: 5vw;
     }
     #globettl {
-        top: 72vw;
-        left: 43.2vw;
+        top: 5vh;
+        font-size: 2vw;
     }
-    #globe:hover {
-        width: 6vw;
-        height: 6vw;
-    }
-    #globe:hover+#globettl {
+    #globe-btn {
         width: 5vw;
-        top: 73vw;
+        height: 7vw;
+        left: 47.5vw;
+        top: 80vh;
     }
 }
 
 @media only screen and (max-width: 510px) {
     #select {
-        top: 65vw;
+        top: 60vh;
         height: 40vh;
     }
     .logos {
@@ -109,72 +107,61 @@
         height: 7vw;
     }
     #globe {
-        margin: 0;
-        top: 82vw;
-        left: 47.5vw;
         width: 5vw;
         height: 5vw;
     }
     #globettl {
-        top: 82vw;
+        top: 5vh;
+        font-size: 2vw;
     }
-    p {
-        font-size: 1.2vw;
-    }
-    #globe:hover {
-        width: 6vw;
-        height: 6vw;
-    }
-    #globe:hover+#globettl {
+    #globe-btn {
         width: 5vw;
-        top: 83vw;
+        height: 7vw;
+        left: 47.5vw;
+        top: 80vh;
+    }
+    .sub>p {
+        font-size: 1.2vw;
     }
 }
 
 @media only screen and (max-width: 420px) {
     #select {
-        left: 0;
-        margin: 0 10vw 0 10vw;
-        height: 30vh;
-        width: 80vw;
+        height: 25vh;
+        top: 50vh;
         flex-wrap: wrap;
     }
     .logos {
         width: 7vw;
-        height: 8.3vw;
-        margin: 1vw 3vw -1.3vw 3vw;
+        height: 8.5vw;
+        margin: 0vw 3vw -1.3vw 3vw;
     }
     .selected-logo {
-        width: 5.2vw;
-        height: 7vw;
+        width: 9vw;
+        height: 11.5vw;
     }
     #preview {
-        bottom: 30vw;
+        bottom: 20vh;
     }
     #globe {
-        margin: 0;
-        top: 105vw;
-        left: 47.5vw;
         width: 5vw;
         height: 5vw;
     }
     #globettl {
-        top: 105vw;
-        left: 44vw;
+        top: 3vh;
+        font-size: 2vw;
     }
-    p {
+    #globe-btn {
+        width: 5vw;
+        height: 7vw;
+        left: 47.5vw;
+        top: 80vh;
+    }
+    .sub>p {
         margin: 1vw 0 0 3vw;
         font-size: 2vw;
         width: 7vw;
         line-height: 2vw;
-    }
-    #globe:hover {
-        width: 6vw;
-        height: 6vw;
-    }
-    #globe:hover+#globettl {
-        width: 5vw;
-        top: 106vw;
     }
 }
 
@@ -202,14 +189,6 @@
         top: 121vw;
         left: 43.8vw;
     }
-    #globe:hover {
-        width: 8vw;
-        height: 8vw;
-    }
-    #globe:hover+#globettl {
-        width: 4vw;
-        top: 122vw;
-    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -235,14 +214,6 @@
     #globettl {
         top: 138vw;
         left: 43.8vw;
-    }
-    #globe:hover {
-        width: 8vw;
-        height: 8vw;
-    }
-    #globe:hover+#globettl {
-        width: 4vw;
-        top: 140vw;
     }
 }
 
@@ -270,16 +241,8 @@
         top: 157vw;
         left: 44.5vw;
     }
-    p {
+    .sub>p {
         font-size: 2.5vw;
         width: 7.5vw;
-    }
-    #globe:hover {
-        width: 8vw;
-        height: 8vw;
-    }
-    #globe:hover+#globettl {
-        width: 4vw;
-        top: 158vw;
     }
 }
